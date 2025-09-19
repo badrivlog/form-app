@@ -40,6 +40,7 @@ const ContactForm = () => {
           id="task3-name"
           name="task3-name"
           placeholder="John Doe"
+          value={formState.name}
         />
       </div>
       <div>
@@ -52,6 +53,7 @@ const ContactForm = () => {
           id="task3-email"
           name="task3-email"
           placeholder="example@gmail.com"
+          value={formState.email}
         />
       </div>
       <div>
@@ -64,6 +66,7 @@ const ContactForm = () => {
           name="task3-message"
           rows="5"
           cols="40"
+          value={formState.message}
         ></textarea>
       </div>
       <button className="bg-blue-500 text-white rounded-md py-1" type="submit">
